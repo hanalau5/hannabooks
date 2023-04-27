@@ -8,20 +8,30 @@ body, ul{
     color:black;
     text-decoration: none;
     font-family: sans-serif;
-    font-size: 15px;
+    font-size: 1.20em;
+    text-transform: uppercase;
+    transition: 0.3s;
 }
 
 #menu a:hover{
-    background: #D2B48C;
-    font-size: 15px;
+    color:#A67C58;
+    font-size: 1.4em;
+    transition: 0.3s;
+    text-shadow: 4px 4px 6px #0000007a;
+    
+}
+
+#logo img:hover{
+    box-shadow: 4px 4px 6px #0000007a;
+    transition: 0.3s;
 }
 
 #logo img{
     float: left;
     height: 55px;
     position: relative;
-    top:10px;
-    left: 10px;
+    top:0px;
+    left: 0px;
 }
 
 #header{
@@ -34,7 +44,7 @@ body, ul{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #e7e7e7;
+    background: #D2B48C;
 }
 
 #menu{
@@ -45,4 +55,15 @@ body, ul{
 
 #btn-mobile{
     display: none;
+}
+
+#carouselExampleInterval{
+    position: relative;
+    z-index: 10;
+    padding-top: 85px;
+    width: 100%;
+}
+
+#carouselExampleInterval img {
+    height: 400px;
 }
