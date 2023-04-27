@@ -12,7 +12,7 @@ body, ul{
 }
 
 #menu a:hover{
-    background: rgba(0, 0, 0, 0.05);
+    background: #D2B48C;
     font-size: 15px;
 }
 
