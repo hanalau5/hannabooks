@@ -48,6 +48,12 @@ body, ul{
     background:burlywood ;
 }
 
+#header h1 {
+    font-family: 'Slabo 27px';
+    float: left;
+    padding-left: 10px;
+}
+
 #menu{
     display: flex;
     list-style: none;
@@ -62,13 +68,17 @@ body, ul{
     position: relative;
     z-index: 10;
     padding-top: 75px;
-    width: 100%;      
+    margin-left: 8px;
+    margin-right: 8px;
+  
+    transition: 0.3s;      
 }
 
 #carouselExampleInterval img {
-    height: 500px;
+    height: 550px;
     width: auto;
 }
+
 /* CSS Estilos Banner */
 
 .section-banner-home {
@@ -156,4 +166,52 @@ body, ul{
 .destaque img{
     height: 220px;
 
+}
+/* Fim CSS destaque */
+
+/* Início CSS Novidades */
+
+.novidades .text-body{
+    width: 80%;
+    margin: 70px auto;
+}
+
+.novidades h2{
+    color: black;
+}
+
+.novidades p{
+    color: black;
+}
+
+.novidades a{
+    color: chartreuse;
+    text-decoration: underline;
+    text-decoration-color: darkmagenta;
+    padding: 6px 12px;
+    background-color: darkblue;
+    font-weight: 400;
+}
+/* Fim CSS Novidades */
+
+/* Início CSS Galeria */
+
+.galeria{
+    margin: 60px auto 20px;
+}
+
+.galeria h2{
+    text-align: center;
+    font-size: 24px;
+}
+
+.galeria p{
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 50px;
+}
+
+.galeria .galery{
+    width: 30%;
+    margin: 14px auto 50px;
 }
