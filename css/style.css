@@ -185,11 +185,11 @@ body, ul{
 }
 
 .novidades a{
-    color: chartreuse;
+    color: black;
     text-decoration: underline;
-    text-decoration-color: darkmagenta;
+    text-decoration-color: rgb(0, 0, 0);
     padding: 6px 12px;
-    background-color: darkblue;
+    background-color:#A67C58;
     font-weight: 400;
 }
 /* Fim CSS Novidades */
