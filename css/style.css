@@ -282,6 +282,11 @@ body, ul{
     width: 50%;
     margin: 14px auto 30px;
 }
+.galeria figcaption{
+    text-align: center;
+    width: 50%;
+    margin: 14px auto 30px;
+}
 
 .galeria .gallery{
     width: 30%;
@@ -303,6 +308,12 @@ body, ul{
 .rodape .container img{
     height: 50%;
     width: 50%;
+    padding-left: 5px;
+    transition: transform .2s;
+}
+
+.rodape .container img:hover{
+   transform: scale(1.5);
 }
 
 .rodape .info-contato p{
