@@ -67,16 +67,20 @@ body, ul{
 #carouselExampleInterval{
     position: relative;
     z-index: 10;
-    padding-top: 75px;
+    padding-top: 10px;
     margin-left: 8px;
     margin-right: 8px;
-  
-    transition: 0.3s;      
+    margin-bottom: 10px;
+    margin-bottom: 10px;
+    transition: 0.3s; 
+    width: 100%;
+    height: 500px;
+    display: inline-flex;     
 }
 
 #carouselExampleInterval img {
-    height: 550px;
-    width: auto;
+    height: 500px;
+    width: 90%;
 }
 
 @media(max-width:600px){
@@ -331,13 +335,19 @@ body, ul{
     font-weight: bold;
 }
 
-.rodape .redes-sociais{
-    display: inline-block;
+.rodape .redes-sociais img{
+   width: 50px;
+   height: 50px;
+   padding-left: 0;
+   margin-left: 0.7rem;
+   transition: transform .3s;
+   border-radius: 10px;
 }
 
-.rodape .redes-sociais img{
-    width: 45px;
-    height: 40px;
+.rodape .redes-sociais img:hover{
+    z-index: 1;
+    transform: scale(1.5);
+    box-shadow: 0 0 10px rgb(94, 91, 91);
 }
 
 .rodape p.direitos{
@@ -515,7 +525,7 @@ body, ul{
 
 .whatsapp{
     position: fixed;
-    z-index: 2;
+    z-index: 200;
     top: 200px;
     right: 20px;
 }
